@@ -5,12 +5,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>777的宝藏</title>
+    <!-- jQuery -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- bootstrap   存在冲突 -->
+    <!-- <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet"> -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.0/js/bootstrap.min.js"></script>
+    <!-- stylecss -->
+    <link rel="stylesheet" href="css/indexCss.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <!-- <link rel="stylesheet" href="css/animation.css"> -->
+    <!-- 插件 -->
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 </head>
-<body>
-    <a href="https://pan.baidu.com/s/1-eHHFjQkvseSIjf7_zbMoQ?pwd=igen">苍之彼方的四重奏ex2</a><br/>
-    <hr/>
-    <a href="https://pan.baidu.com/s/1ET6oOrSfhJm9k0KoT4CiUA?pwd=cfdc">神様のような君へ Extended Edition</a><br/>
-    <hr/>
-    <a href="https://pan.baidu.com/s/1Cb9EQpz-wVcHNnAtbBvbMA?pwd=d9pk">AMBITIOUS MISSION</a><br/>
+<body style="overflow-x: hidden;">
+    <!--加载动画-->
+    <div id="loading-box" class="loading-box">
+      <div class="loading-left-bg"></div>
+      <div class="loading-right-bg"></div>
+      <div class="spinner-box">
+          <div class="loader">
+              <div class="inner one"></div>
+              <div class="inner two"></div>
+              <div class="inner three"></div>
+          </div>
+          <div class="loading-word">
+              <p class="loading-title" id="loading-title">Vanitas vanitatum...</p>
+              <span id="loading-text">et omnia vanitas!</span>
+          </div>
+      </div>
+    </div>
+    <div id="allContainer">
+        <div class="box" id="box">
+          <div class="inner1">
+            <!--轮播图-->
+            <ul>
+              <li>
+                <div><img src="img/1.jpg" alt=""></div>
+              </li>
+              <li>
+                <div><img src="img/2.jpg" alt=""></div>
+              </li>
+              <li>
+                <div><img src="img/3.jpg" alt=""></div>
+              </li>
+              <li>
+                <div><img src="img/4.jpg" alt=""></div>
+              </li>
+              <li>
+                <div><img src="img/5.jpg" alt=""></div>
+              </li>
+    
+            </ul>
+          </div>
+        </div>
+        <div id="header">
+          <h1>パンダ様のちかしつ</h1>
+          <p>一条咸鱼的休息室</p>
+        </div>
+        <!-- 内容 -->
+        <div class="inContainer">
+          <!-- 登录表单 -->
+          <!-- <aside>Aside</aside> -->
+          <!-- 主要内容 -->
+          <main>
+              <div class="specif">
+                  <h1>Pandas</h1><br>
+                  <p>请勿使用腾讯系浏览器访问本站 (企鹅cheese吧)</p><br>
+                  <p>别在这理发店 ( ᗜ ˰ ᗜ )❌💈<span> ビエザイゼリファデン</span></p><br>
+              </div>    
+              <div class="list4">
+                  <ul>
+                    <!--菜单-->
+                    <li><a href="#">二次元</a></li><br><br><br>
+                    <li><a href="#">壁纸</a></li><br><br><br>
+                    <li><a href="https://www.acgbox.link">导航栏</a></li><br><br><br>
+                    <li><a href="mailto:pandasggpan@gmail.com">联系我</a></li>
+                    <!-- <li><a href="#">三次元你懂的</a></li> -->
+                  </ul>
+              </div>
+          </main>
+        </div>
+        <!-- 其他应用  -->
+        <div class="app">
+          <p>施工中,双击播放音乐</p>
+          <div class="music">
+              <meting-js
+                  server="netease"
+                  type="playlist"
+                  id="7620270492"
+                  fixed="true"
+                  autoplay="true"
+                  loop="all"
+                  order="list"
+                  preload="auto"
+                  list-folded="true"
+                  list-max-height="340px"
+                  lrc-type="1">
+              </meting-js>
+          </div>
+        </div>
+        <!-- 版权、解释权 -->
+        <footer>
+          <p class="copyright">
+            &copy;2022-2024 <a href="https://iaotobl.github.io">pandas</a> 
+            联系方式 :pandasggpan@gmail.com
+          </p>
+        </footer>
+      </div>
 </body>
+
+<!-- js -->
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js">
+</script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/bgMod.js"></script>
+
 </html>
