@@ -67,6 +67,7 @@ ol .current {
 #allContainer{
     width: 800px;
     margin: 0 auto;
+    
 }
 
 .header{
@@ -83,6 +84,11 @@ ol .current {
     width: 700px;
     margin: 5px;
     height: 747px;
+    background-image: url('../img/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: bottom right;
+
     position: absolute;
     right: 0;
     top: 0%;
@@ -163,3 +169,4 @@ li a:hover {
     left: 0px;
 
 } */
+
